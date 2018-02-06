@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Welcome to the Schilling Store!</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
@@ -51,19 +51,29 @@
         </div>
     </div>
 
-    <div id="content" role="main">
+    <div id="content" role="main" style="background-color: green">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Welcome to The Schilling Store!
+            </h1>
 
             <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
+                This is the Schilling Store we created using Git.
+                Sean and Parker created the Manufacturer branch,
+                Deryk and Alex created the Category branch,
+                and William and Emmit created the Product branch.
             </p>
 
             <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
+                <h2>Store Assets:</h2>
+                <div class="col-sm-6 col-right">
+                    <g:link controller="product">Manage Products</g:link>
+                </div>
+                <div class="col-sm-6 col-right">
+                    <g:link controller="category">Manage Categories</g:link>
+                </div>
+                <div class="col-sm-6 col-right">
+                    <g:link controller="manufacturer">Manage Manufacturers</g:link>
+                </div>
                 <ul>
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
                         <li class="controller">
