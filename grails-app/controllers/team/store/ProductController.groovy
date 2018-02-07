@@ -104,4 +104,8 @@ class ProductController {
             '*'{ render status: NOT_FOUND }
         }
     }
+
+    def report() {
+        respond Product.list(), model:[productCount: Product.count()]
+    }
 }
