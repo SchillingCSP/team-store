@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Welcome to the Schilling Store!</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
@@ -47,21 +48,24 @@
 
     <div class="svg" role="presentation">
         <div class="grails-logo-container">
-            <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
+            <asset:image src="Schilling Logo SVG.svg" class="grails-logo"/>
         </div>
     </div>
 
-    <div id="content" role="main" style="background-color: green">
+    <div id="content" role="main" style="background-color: gold" style="font-weight: bold" style="color:green">
         <section class="row colset-2-its">
             <h1>Welcome to The Schilling Store!
+            <style>
+                h1{
+                    white-space:pre-line;
+                }
+            </style>
+                Ketu-Sami Branch: Styling
+                Parker-Sean Branch: Category
+                Alex-Deryk: Manufacturer
+                William-Emmet: Product
             </h1>
 
-            <p>
-                This is the Schilling Store we created using Git.
-                Sean and Parker created the Manufacturer branch,
-                Deryk and Alex created the Category branch,
-                and William and Emmit created the Product branch.
-            </p>
 
             <div id="controllers" role="navigation">
                 <h2>Store Assets:</h2>
