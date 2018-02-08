@@ -1,3 +1,5 @@
+package team.store
+
 class Category {
     String name
     static constraints = {
