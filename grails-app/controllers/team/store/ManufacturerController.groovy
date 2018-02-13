@@ -76,7 +76,7 @@ class ManufacturerController {
     }
 
     def report() {
-        respond Category.list(), model:[categoryCount: Category.count()]
+        respond Manufacturer.list(), model:[manufacturerCount: Manufacturer.count()]
     }
 
     @Transactional
