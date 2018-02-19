@@ -1,0 +1,7 @@
+create a branch
+add your code to the branch
+commit the code
+push the branch
+request a merge
+once merge is complete, pull the master
+create new branch
